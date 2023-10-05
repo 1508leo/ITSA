@@ -5,7 +5,9 @@ int main(){
     int binary[8] = {0};
 
     while(scanf("%d", &number) != -1){
-        if(number >=0){
+        // Positive
+        if(number >=0){ 
+            // Reset
             for(int i = 0; i < 8; i++)
                 binary[i] = 0;
 
@@ -17,7 +19,9 @@ int main(){
                 number /= 2;
             }
         }
+        // Negative
         else{
+            // Reset
             for(int i = 0; i < 8; i++)
                 binary[i] = 1;
 
@@ -30,6 +34,7 @@ int main(){
                 number /= 2;
             }
         }
+        // Reverse the output
         for(int i = 7; i > -1; i--)
             printf("%d", binary[i]);
 
