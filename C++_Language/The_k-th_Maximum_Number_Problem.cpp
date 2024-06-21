@@ -2,6 +2,7 @@
 // https://e-tutor.itsa.org.tw/mod/programming/view.php?id=21418
 #include <iostream>
 #include <algorithm>
+
 using namespace std;
 
 /* Qsort */

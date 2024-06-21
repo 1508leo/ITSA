@@ -1,6 +1,7 @@
 // Basic -> 35.
 // https://e-tutor.itsa.org.tw/mod/programming/view.php?id=30793
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
